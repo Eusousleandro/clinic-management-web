@@ -2,7 +2,7 @@ import './style.css'
 
 export default function Login() {
     return (
-        <div className="content-login">
+        <form action="" className="content-login" onSubmit="">
             <div className="title-login">
                 <h1>Sejam bem-vindos ao SGC</h1>
             </div>
@@ -10,6 +10,6 @@ export default function Login() {
             <div className="content-input">
 
             </div>
-        </div>
+        </form>
     )
 }

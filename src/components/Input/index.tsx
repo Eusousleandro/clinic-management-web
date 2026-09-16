@@ -8,15 +8,13 @@ export default function Input({
     onChange }: IInputLogin) {
 
     return (
-        <form action="" className="content-form">
-            <div className="content-input">
-                <input 
-                    type={type}
-                    placeholder={placeholder}
-                    value={value}
-                    onChange={onChange}
-                />
-            </div>
-        </form>
+        <div className="content-input">
+            <input 
+                type={type}
+                placeholder={placeholder}
+                value={value}
+                onChange={onChange}
+            />
+        </div>
     )
 }
