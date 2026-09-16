@@ -1,11 +1,11 @@
-import { IInputLogin } from '../interfaces/IInputLogin'
+import { IInput } from '../interfaces/IInput'
 import './style.css'
 
 export default function Input({
     type, 
     placeholder,
     value, 
-    onChange }: IInputLogin) {
+    onChange }: IInput) {
 
     return (
         <div className="content-input">
