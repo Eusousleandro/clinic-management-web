@@ -1,5 +1,5 @@
-import type { IInputLogin } from '../interfaces/IInputLogin'
+import type { IInput } from '../interfaces/IInput'
 
-export type InputLoginResponse = {
-    inputLogin: IInputLogin[]
+export type InputResponse = {
+    inputLogin: IInput[]
 }
