@@ -11,6 +11,10 @@ export default function Login() {
 
     }
 
+    function handlerButtonLogout() {
+        
+    }
+
     return (
         <form action="" className="content-login" onSubmit="">
             <div className="title-login">
@@ -21,7 +25,7 @@ export default function Login() {
                 <Input 
                     type='email'
                     placeholder='Digite o seu email'
-                    value={email}
+                    value={email || ""}
                     onChange={(e) => {
                         setEmail(e.target.value)
                     }}
@@ -30,7 +34,7 @@ export default function Login() {
                 <Input
                     type="password"
                     placeholder="Digite a sua senha"
-                    value={password}
+                    value={password || ""}
                     onChange={(e) => {
                         setPassword(e.target.value)
                     }}
@@ -40,6 +44,10 @@ export default function Login() {
             <div className="buttons">
                 <div className="btn-login">
                     <Button name="Login" onClick={handlerSubmit}/>
+                </div>
+
+                <div className="logout">
+                    <Button name="Sair" onClick={handlerButtonLogout}/>
                 </div>
             </div>
         </form>
