@@ -4,15 +4,15 @@ import Button  from '../../../components/Button'
 import './style.css'
 
 export default function Login() {
-    const [email, setEmail] = useState<String>("")
-    const [password, setPassword] = useState<String>("")
+    const [email, setEmail] = useState<String || null>(null)
+    const [password, setPassword] = useState<String || null>(null)
 
     function handlerSubmit() {
 
     }
 
     function handlerButtonLogout() {
-        
+
     }
 
     return (
@@ -25,19 +25,19 @@ export default function Login() {
                 <Input 
                     type='email'
                     placeholder='Digite o seu email'
-                    value={email || ""}
                     onChange={(e) => {
                         setEmail(e.target.value)
                     }}
+                    value={email}
                 />
 
                 <Input
                     type="password"
                     placeholder="Digite a sua senha"
-                    value={password || ""}
                     onChange={(e) => {
                         setPassword(e.target.value)
                     }}
+                    value={password}
                 />
             </div>
 
