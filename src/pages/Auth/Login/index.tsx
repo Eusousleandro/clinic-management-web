@@ -4,8 +4,8 @@ import Button  from '../../../components/Button'
 import './style.css'
 
 export default function Login() {
-    const [email, setEmail] = useState<String || null>(null)
-    const [password, setPassword] = useState<String || null>(null)
+    const [email, setEmail] = useState<String>("")
+    const [password, setPassword] = useState<String>("")
 
     function handlerSubmit() {
 
