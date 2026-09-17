@@ -11,12 +11,12 @@ export default function Login() {
 
     }
 
-    function handlerButtonLogout() {
+    function handlerButtonRegister() {
 
     }
 
     return (
-        <form action="" className="content-login" onSubmit="">
+        <form action="" className="content-login">
             <div className="title-login">
                 <h1>Sejam bem-vindos ao SGC</h1>
             </div>
@@ -47,7 +47,7 @@ export default function Login() {
                 </div>
 
                 <div className="logout">
-                    <Button name="Sair" onClick={handlerButtonLogout}/>
+                    <Button name="Registrar" onClick={handlerButtonRegister}/>
                 </div>
             </div>
         </form>
