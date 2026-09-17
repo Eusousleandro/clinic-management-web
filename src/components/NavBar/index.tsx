@@ -9,7 +9,7 @@ export default function NavBar() {
                 </div>
                 <div className="content-user">
                     <div className="icone-user">
-                        <img src={} alt="Foto de Usuário" />
+                
                     </div>
                     <div className="name-user">
                         <h2>Leandro</h2>
