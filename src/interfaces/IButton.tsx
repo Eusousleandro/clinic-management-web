@@ -1,4 +1,4 @@
-import { MouseEvenHandler } from 'react';
+import type { MouseEvenHandler } from 'react';
 
 export interface IButton {
     name: string
