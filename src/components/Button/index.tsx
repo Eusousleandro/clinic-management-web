@@ -1,4 +1,4 @@
-import type { IButton } from '../interfaces/IButton'
+import type { IButton } from '../../interfaces/IButton'
 
 export default function Button({ name }: IButton) {
     return (

@@ -1,11 +1,11 @@
-import { useSatate } from 'react'
+import { useState } from 'react'
 import Input  from '../../../components/Input'
 import Button  from '../../../components/Button'
 import './style.css'
 
 export default function Login() {
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
+    const [email, setEmail] = useState<String>("")
+    const [password, setPassword] = useState<String>("")
 
     function handlerSubmit() {
 
