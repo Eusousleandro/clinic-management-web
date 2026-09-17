@@ -1,4 +1,4 @@
-import { IInput } from '../interfaces/IInput'
+import type { IInput } from '../../interfaces/IInput'
 import './style.css'
 
 export default function Input({
